@@ -8,7 +8,7 @@ const Sequelize = require("sequelize");
 //setting up sqlite db
 const sequelize = new Sequelize({
   dialect: "sqlite",
-  storage: "./db/fsjstd-restapi.db"
+  storage: "fsjstd-restapi.db"
 });
 
 //test connection
